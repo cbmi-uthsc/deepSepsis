@@ -14,11 +14,11 @@
 
 ## 2nd Part
 
- In this part we will make different Temporal convolution neural network (t-CNN) architecture  with input data as the physiomarkers that are acquired in phase 1.
+ In this part we will make different Temporal convolution neural network (t-CNN) architecture  with input data as physiomarkers that are acquired in phase 1.
 
- Training the architectures on train data.
- Testing the architectures on test data.
- Evaluating those architectures on the different metrics to identify the best performing architecture.
+ Training the architectures on train data.  
+ Testing the architectures on test data.  
+ Evaluating those architectures on the different metrics to identify the best performing architecture.  
 
 ## 3rd Part
 
