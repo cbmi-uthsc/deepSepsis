@@ -129,7 +129,7 @@ class TemporalConvNet(tf.layers.Layer):
 
 # Either patient is suffering or not suffering from the sepsis disease
 # kernel size and number of hidden layers will be changed accordingly after calculating the metrics on different architecture
-# Best training parameters will depend after checking wh
+# Best training parameters will be based on the model architecture which is performing best on different metrics
 
 # Training Parameters
 learning_rate = 0.001
