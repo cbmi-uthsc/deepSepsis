@@ -7,10 +7,10 @@
  Since the data from CITI website can't be accessed due to unavailabitlity of login credential.  
  I can't find a good high frequency sepsis dataset online thus we need to skip this part for now.
 
- Lets assume we have the data set with all the physiological data  
- [temperature, sao2, heartrate, respiration, cvp, etco2, systemicsystolic, systemicdiastolic, systemicmean, pasystolic, padiastolic, pamean,	st1, st2, st3, icp]
- We will use various statistics method to get good physiomarkers for the dataset.
- Lets assume these are the important physiomarkers for sepsis prediction [temperature, sao2, cvp, etco2, systemicystolic, systemicmean, st2,st2, icp]
+ Lets assume we have the data set with all the physiological data as :
+ [temperature, sao2, heartrate, respiration, cvp, etco2, systemicsystolic, systemicdiastolic, systemicmean, pasystolic, padiastolic, pamean,	st1, st2, st3, icp]  
+ We will use various statistics method to get good physiomarkers for the dataset.  
+ Lets assume these are the important physiomarkers for sepsis prediction [temperature, sao2, cvp, etco2, systemicystolic, systemicmean, st2,st2, icp]  
 
 ## 2nd Part
 
