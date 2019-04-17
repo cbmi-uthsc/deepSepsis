@@ -1,5 +1,7 @@
 
 # Creating the CasualConv1D from the Conv1D of tensorflow
+# CasualConv1D is a updation of Conv1d layer of tensorflow by adding a dilation factor in Conv1d
+# This will be the basic building layer for our convolutional neural net
 
 class CausalConv1D(tf.layers.Conv1D):
     def __init__(self, filters,
@@ -42,10 +44,6 @@ class CausalConv1D(tf.layers.Conv1D):
         padding = (self.kernel_size[0] - 1) * self.dilation_rate[0]
         inputs = tf.pad(inputs, tf.constant([(0, 0,), (1, 0), (0, 0)]) * padding)
         return super(CausalConv1D, self).call(inputs)
-
-
-
-
 
 
 class TemporalBlock(tf.layers.Layer):
