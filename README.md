@@ -2,6 +2,11 @@
 
 Deep learning model for sepsis prediction using high-frequency data
 
+## Prerequisite
+
+To run the model locally please use following to command for downloading required libraries and framework:  
+``` pip3 install -r requirements.txt ```
+
 ## Abstract
 
 Sepsis is a life-threatening condition with high mortality rates. Early detection and treatment are critical to improving outcomes
