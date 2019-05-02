@@ -1,0 +1,7 @@
+numpy
+scipy
+pandas
+tensorflow
+pyspark
+scikit-learn
+jupyter
